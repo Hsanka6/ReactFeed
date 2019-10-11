@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware} from 'redux';
-import PostList from './PostList';
+// import PostList from './components/PostList';
 import thunk from 'redux-thunk';
 
 import App from './components/App';
